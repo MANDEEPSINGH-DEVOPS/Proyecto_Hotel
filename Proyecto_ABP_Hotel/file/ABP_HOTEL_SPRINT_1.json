@@ -1,0 +1,934 @@
+{
+	"info": {
+		"_postman_id": "ba94355b-df86-4699-8b06-22dd8f7ac833",
+		"name": "ABP_HOTEL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38407256"
+	},
+	"item": [
+		{
+			"name": "Activitats",
+			"item": [
+				{
+					"name": "/activitats GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/activitats",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"activitats"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/activitats POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nom",
+									"value": "gym",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "insert",
+									"type": "text"
+								},
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/activitats",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"activitats"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/activitats update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "update",
+									"type": "text"
+								},
+								{
+									"key": "id_up",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/activitats",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"activitats"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/activitats delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "delete",
+									"type": "text"
+								},
+								{
+									"key": "id_delete",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/activitats",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"activitats"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "/Admin Get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/admin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Admin Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usu",
+									"value": "angel_sola",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "insert",
+									"type": "text"
+								},
+								{
+									"key": "pass",
+									"value": "1234",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/admin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Admin Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "delete",
+									"type": "text"
+								},
+								{
+									"key": "id_delete",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/admin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Habitacions",
+			"item": [
+				{
+					"name": "/Habitacions Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/habitacions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"habitacions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Post habitacion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "insert",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "habitacion con 2 camas",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/habitacions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"habitacions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Update habitacion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "update",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/habitacions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"habitacions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/delete habitacion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "delete",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/habitacions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"habitacions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Register",
+			"item": [
+				{
+					"name": "/Register GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Register POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "insert",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "MAN_ANGEL",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "mandeep@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Register Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "delete",
+									"type": "text"
+								},
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reserva_Activitat",
+			"item": [
+				{
+					"name": "/Reserva_Act Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaActividad",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaActividad"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Reserva_Act Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "insert",
+									"type": "text"
+								},
+								{
+									"key": "id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "id_user",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "id_act",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaActividad",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaActividad"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Reserva_Act Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "update",
+									"type": "text"
+								},
+								{
+									"key": "id_u",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "id_user_u",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "id_act_u",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaActividad",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaActividad"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Reserva_Act Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "delete",
+									"type": "text"
+								},
+								{
+									"key": "id_delete",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaActividad",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaActividad"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reserva_Habitacions",
+			"item": [
+				{
+					"name": "/Reserva_Hab Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaHabitacion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaHabitacion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Reserva_Hab Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "insert",
+									"type": "text"
+								},
+								{
+									"key": "id_usuario",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "fecha_entrada",
+									"value": "12/04/2019",
+									"type": "text"
+								},
+								{
+									"key": "fecha_salida",
+									"value": "15/04/2019",
+									"type": "text"
+								},
+								{
+									"key": "fecha_reserva",
+									"value": "9/04/2019",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaHabitacion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaHabitacion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Reserva_Hab Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "update",
+									"type": "text"
+								},
+								{
+									"key": "id_usuario_u",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "fecha_entrada_u",
+									"value": "12/04/2020",
+									"type": "text"
+								},
+								{
+									"key": "fecha_salida_u",
+									"value": "15/04/2020",
+									"type": "text"
+								},
+								{
+									"key": "fecha_reserva_u",
+									"value": "9/04/2020",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaHabitacion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaHabitacion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Reserva_Hab Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "delete",
+									"type": "text"
+								},
+								{
+									"key": "id1",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/reservaHabitacion",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"reservaHabitacion"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User_Login",
+			"item": [
+				{
+					"name": "/Login Get",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "user",
+									"value": "mandeep",
+									"type": "text"
+								},
+								{
+									"key": "pass",
+									"value": "123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Login Insert",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "usu",
+									"value": "mandeep",
+									"type": "text"
+								},
+								{
+									"key": "pass",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "action",
+									"value": "insert",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Login Delete Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "action",
+									"value": "delete",
+									"type": "text"
+								},
+								{
+									"key": "id_delete",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/Proyecto_ABP_Hotel/user",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"Proyecto_ABP_Hotel",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
